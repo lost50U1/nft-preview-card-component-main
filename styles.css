@@ -55,10 +55,6 @@ main {
   padding: 30px;
 }
 
-/* for desktop size 1440px
-@media only screen and (min-width: 1440px) {
-} */
-
 .card {
   background-color: hsl(216, 50%, 16%);
   color: hsl(0, 0%, 100%);
@@ -66,7 +62,8 @@ main {
   border-radius: 15px;
 }
 
-img {
+.equi {
+  height: auto;
   border-radius: 10px;
 }
 
@@ -148,21 +145,46 @@ span img {
   cursor: pointer;
 }
 
-.equi:hover,
-.equi:active,
-.equi:focus {
-  /* -webkit-mask-image: url(images/icon-view.svg);
-  mask-image: url(images/icon-view.svg);
-  -webkit-mask-repeat: no-repeat;
-  mask-repeat: no-repeat; */
-  background: url(images/icon-view.svg);
-  cursor: pointer;
+/* overlay and icon  */
+
+/* todo new knowledge image overlay icon  */
+
+picture {
+  position: relative;
+}
+.icon {
+  font-size: 100px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+  opacity: 0;
+  z-index: 1;
+}
+
+picture:hover .icon {
+  opacity: 1;
+}
+
+.equi:hover {
   opacity: 0.5;
 }
 
-picture:hover,
-picture:active,
-picture:focus {
-  background: hsla(178, 100%, 50%);
-  border-radius: 11px;
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-color: hsla(178, 100%, 50%);
+  opacity: 0;
+  border-radius: 10px;
+}
+
+picture:hover .overlay {
+  opacity: 0.5;
 }
