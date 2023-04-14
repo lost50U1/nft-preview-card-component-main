@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Hanken Grotesk', sans-serif;
+    font-size: 15px;
+}
+
+main {
+    max-width: 375px;
+    margin: 0 auto;
+    margin-top: 15vh;
+    padding: 30px;
+}
+
+/* for desktop size 1440px */
+@media only screen and (min-width: 1440px) {
+    main{
+    margin-top: 20vh;
+    }
+} 
+
+.card {
+    background-color: hsl(216, 50%, 16%);
+    color: hsl(0, 0%, 100%);
+    padding: 20px;
+    border-radius: 15px;
+}
+
+img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.line {
+    border-bottom: 1px solid hsl(215, 32%, 27%);
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.avatar{
+    display: flex;
+    align-items: center;
+    padding: 15px 0;
+    justify-content: flex-start;
+
+}
+
+#avatar {
+    width: 26px;
+    height: 26px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
