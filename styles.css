@@ -131,3 +131,38 @@ span img {
   border-radius: 20px;
   margin-right: 0.3rem;
 }
+
+/* active state  */
+
+.right:hover,
+.right:active,
+.right:focus {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+#title:hover,
+#title:active,
+#title:focus {
+  color: hsl(178, 100%, 50%);
+  cursor: pointer;
+}
+
+.equi:hover,
+.equi:active,
+.equi:focus {
+  /* -webkit-mask-image: url(images/icon-view.svg);
+  mask-image: url(images/icon-view.svg);
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat; */
+  background: url(images/icon-view.svg);
+  cursor: pointer;
+  opacity: 0.5;
+}
+
+picture:hover,
+picture:active,
+picture:focus {
+  background: hsla(178, 100%, 50%);
+  border-radius: 11px;
+}
