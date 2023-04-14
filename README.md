@@ -30,8 +30,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Website](https://www.frontendmentor.io/solutions/responsive-3column-preview-card-component-with-flexbox-E9_6gCPfKf)
-- Live Site URL: [Website](https://lost50u1.github.io/3-column-preview-card-component-main/)
+- Solution URL: [Website](https://www.frontendmentor.io/solutions/nft-preview-card-component-with-flexbox-rsgF0BNJF2)
+- Live Site URL: [Website](https://lost50u1.github.io/nft-preview-card-component-main/)
 
 ## My process
 
