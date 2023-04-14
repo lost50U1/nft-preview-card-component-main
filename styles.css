@@ -51,20 +51,16 @@ body {
 }
 
 main {
-  max-width: 375px;
-  padding: 30px;
-}
-
-.card {
+  max-width: 330px;
   background-color: hsl(216, 50%, 16%);
   color: hsl(0, 0%, 100%);
-  padding: 20px;
-  border-radius: 15px;
+  padding: 1.4rem;
+  border-radius: 0.83rem;
 }
 
 .equi {
   height: auto;
-  border-radius: 10px;
+  border-radius: 0.556rem;
 }
 
 #title {
@@ -88,7 +84,7 @@ span {
 }
 
 span img {
-  height: 18px;
+  height: 1rem;
 }
 
 .left1 {
@@ -125,7 +121,7 @@ span img {
 #avatar {
   height: 33px;
   border: 1px solid hsl(0, 0%, 100%);
-  border-radius: 20px;
+  border-radius: 1.12rem;
   margin-right: 0.3rem;
 }
 
@@ -153,7 +149,6 @@ picture {
   position: relative;
 }
 .icon {
-  font-size: 100px;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -182,7 +177,7 @@ picture:hover .icon {
   width: 100%;
   background-color: hsla(178, 100%, 50%);
   opacity: 0;
-  border-radius: 10px;
+  border-radius: 0.556rem;
 }
 
 picture:hover .overlay {
