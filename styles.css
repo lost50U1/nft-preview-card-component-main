@@ -145,7 +145,7 @@ span img {
 
 /* todo new knowledge image overlay icon  */
 
-picture {
+.picture {
   position: relative;
 }
 .icon {
@@ -158,7 +158,7 @@ picture {
   z-index: 1;
 }
 
-picture:hover .icon {
+.picture:hover .icon {
   opacity: 1;
 }
 
@@ -179,6 +179,6 @@ picture:hover .icon {
   border-radius: 0.556rem;
 }
 
-picture:hover .overlay {
+.picture:hover .overlay {
   opacity: 0.5;
 }
